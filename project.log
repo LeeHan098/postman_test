@@ -1,0 +1,86 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/reset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/variable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/fonts.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/header.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/mainSection.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/footer.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/group.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/users.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:09] "[36mGET /static/styles/photos.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "GET /groups-layout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/fonts.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/reset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/header.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/variable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/mainSection.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/footer.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/group.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/users.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:22] "[36mGET /static/styles/photos.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "GET /users-layout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/reset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/fonts.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/variable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/mainSection.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/header.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/footer.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/group.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/users.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[36mGET /static/styles/photos.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /user [GET]
+Traceback (most recent call last):
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/ihangyeol/Desktop/flask_postman/app.py", line 105, in get_users
+    log.log(request, '성공')
+AttributeError: 'function' object has no attribute 'log'
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:05:25] "[35m[1mGET /user HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/reset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/variable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/header.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/mainSection.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/fonts.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/footer.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/group.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/users.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:07] "[36mGET /static/styles/photos.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "GET /users-layout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/reset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/variable.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/fonts.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/header.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/mainSection.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/footer.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/group.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/users.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[36mGET /static/styles/photos.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /user [GET]
+Traceback (most recent call last):
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ihangyeol/Desktop/flask_postman/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/ihangyeol/Desktop/flask_postman/app.py", line 104, in get_users
+    log(request, '성공')
+  File "/Users/ihangyeol/Desktop/flask_postman/app.py", line 10, in log
+    log_message = "{0}/{1}/{2}".format(str(request), message)
+IndexError: Replacement index 2 out of range for positional args tuple
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2022 20:06:15] "[35m[1mGET /user HTTP/1.1[0m" 500 -
